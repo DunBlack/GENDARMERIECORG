@@ -1,0 +1,391 @@
+CORG (Coordinateur)
+Glissez un gendarme ici pour le désigner comme CORG
+
+Zone de Retrait
+Glissez un gendarme ici pour le retirer de sa mission
+
+Unités de Patrouille
+PAM STRASBOURG
+
+Peugeot 508
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+BGE STRASBOURG
+
+Volkswagen Passat
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+CCB STRASBOURG
+
+Peugeot 3008
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+BMO FERGERSHEIM
+
+BMW 1250 RT
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+PAM FERGERSHEIM
+
+Volkswagen Sharan
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+PAM SAVERNE
+
+Peugeot 508
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+PSIG CYNO
+
+Volkswagen Passat
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+PSIG STRASBOURG
+
+Peugeot 3008
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+PGM ST-BLAIS-LA-ROCHE
+
+BMW 1250 RT
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+PATROUILLE 1
+
+Volkswagen Sharan
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+
+Retirer tout l'équipage
+PATROUILLE 2
+
+Peugeot 508
+Hors Service
+Équipage (4 max)
+Conducteur
+
+Sélectionner
+
+Chef de patrouille
+
+Sélectionner
+
+Équipier 1
+
+Sélectionner
+
+Équipier 2
+
+Sélectionner
+
+
+Départ Patrouille
+
+Retour Patrouille
+
+ASL
+
+Départ Intervention
+
+Retour Intervention
+Glisser un gendarme ici pour le retirer
+
+

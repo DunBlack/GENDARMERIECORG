@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 248 250 252; /* #F8FAFC */
+  --foreground: 15 23 42; /* #0F172A */
+  --muted: 241 245 249; /* #F1F5F9 */
+  --muted-foreground: 100 116 139; /* #64748B */
+  --popover: 255 255 255; /* #FFFFFF */
+  --popover-foreground: 15 23 42; /* #0F172A */
+  --card: 255 255 255; /* #FFFFFF */
+  --card-foreground: 15 23 42; /* #0F172A */
+  --border: 226 232 240; /* #E2E8F0 */
+  --input: 226 232 240; /* #E2E8F0 */
+  --primary: 30 58 138; /* #1E3A8A */
+  --primary-foreground: 248 250 252; /* #F8FAFC */
+  --secondary: 241 245 249; /* #F1F5F9 */
+  --secondary-foreground: 15 23 42; /* #0F172A */
+  --accent: 241 245 249; /* #F1F5F9 */
+  --accent-foreground: 15 23 42; /* #0F172A */
+  --destructive: 239 68 68; /* #EF4444 */
+  --destructive-foreground: 248 250 252; /* #F8FAFC */
+  --ring: 30 58 138; /* #1E3A8A */
+  --radius: 0.5rem;
+  
+  /* Palette bleue moderne et élégante */
+  --modern-blue-50: 239 246 255; /* #EFF6FF - Ultra clair */
+  --modern-blue-100: 219 234 254; /* #DBEAFE - Très clair */
+  --modern-blue-200: 191 219 254; /* #BFDBFE - Clair */
+  --modern-blue-300: 147 197 253; /* #93C5FD - Moyen clair */
+  --modern-blue-400: 96 165 250; /* #60A5FA - Moyen */
+  --modern-blue-500: 59 130 246; /* #3B82F6 - Principal */
+  --modern-blue-600: 37 99 235; /* #2563EB - Foncé */
+  --modern-blue-700: 29 78 216; /* #1D4ED8 - Très foncé */
+  --modern-blue-800: 30 64 175; /* #1E40AF - Ultra foncé */
+  --modern-blue-900: 30 58 138; /* #1E3A8A - Maximum */
+  --modern-accent: 16 185 129; /* #10B981 - Accent vert moderne */
+}
+
+.dark {
+  --background: 15 23 42; /* #0F172A */
+  --foreground: 248 250 252; /* #F8FAFC */
+  --muted: 30 41 59; /* #1E293B */
+  --muted-foreground: 148 163 184; /* #94A3B8 */
+  --popover: 15 23 42; /* #0F172A */
+  --popover-foreground: 248 250 252; /* #F8FAFC */
+  --card: 15 23 42; /* #0F172A */
+  --card-foreground: 248 250 252; /* #F8FAFC */
+  --border: 30 41 59; /* #1E293B */
+  --input: 30 41 59; /* #1E293B */
+  --primary: 59 130 246; /* #3B82F6 */
+  --primary-foreground: 15 23 42; /* #0F172A */
+  --secondary: 30 41 59; /* #1E293B */
+  --secondary-foreground: 248 250 252; /* #F8FAFC */
+  --accent: 30 41 59; /* #1E293B */
+  --accent-foreground: 248 250 252; /* #F8FAFC */
+  --destructive: 220 38 38; /* #DC2626 */
+  --destructive-foreground: 248 250 252; /* #F8FAFC */
+  --ring: 59 130 246; /* #3B82F6 */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Drag and drop styles */
+.drag-over {
+  border: 2px dashed hsl(var(--police-light)) !important;
+  background-color: hsl(239 246 255) !important; /* #EFF6FF */
+  transform: scale(1.02);
+}
+
+.dragging {
+  opacity: 0.6;
+  transform: rotate(3deg) scale(0.98);
+  transition: all 0.2s ease;
+}
+
+.officer-slot {
+  min-height: 70px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.officer-slot:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle-card {
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.vehicle-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.action-button {
+  transition: all 0.2s ease;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.action-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.status-indicator {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.officers-panel {
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+  border: 1px solid #e2e8f0;
+}
+
+.officer-card {
+  transition: all 0.2s ease;
+  border: 1px solid #cbd5e1;
+}
+
+.officer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+  border-color: #3b82f6;
+}
+
+/* Custom button colors - Gendarmerie style avec effets spectaculaires */
+.btn-patrol {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  @apply text-white shadow-lg border border-green-400 hover:shadow-xl transform hover:scale-105 transition-all duration-200;
+}
+
+.btn-return {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  @apply text-white shadow-lg border border-blue-400 hover:shadow-xl transform hover:scale-105 transition-all duration-200;
+}
+
+.btn-asl {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  @apply text-white shadow-lg border border-amber-400 hover:shadow-xl transform hover:scale-105 transition-all duration-200;
+}
+
+.btn-intervention {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  @apply text-white shadow-lg border border-red-400 hover:shadow-xl transform hover:scale-105 transition-all duration-200;
+}
+
+.btn-return-intervention {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  @apply text-white shadow-lg border border-emerald-400 hover:shadow-xl transform hover:scale-105 transition-all duration-200;
+}
+
+.btn-patrol:disabled, .btn-asl:disabled, .btn-intervention:disabled, .btn-return-intervention:disabled {
+  background: linear-gradient(135deg, #9ca3af 0%, #6b7280 100%);
+  @apply cursor-not-allowed opacity-50 transform-none shadow-sm;
+}
+
+/* Drop zone for removing officers */
+.remove-zone {
+  background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+  border: 2px dashed #dc2626;
+  transition: all 0.3s ease;
+}
+
+.remove-zone.drag-over {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  border-color: #991b1b;
+  transform: scale(1.02);
+}
+
+.remove-zone.drag-over * {
+  color: white !important;
+}
